@@ -80,7 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
   
   holiday_hash.each { |season, holiday|
     holiday.collect { |holiday, value|
-      if value.include? ("BBQ")
+      if value.include?("BBQ")
         value
       end
     }
